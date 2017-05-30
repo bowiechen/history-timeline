@@ -1,12 +1,11 @@
 package test;
 
-import unit.Event;
-
 import java.util.ArrayList;
+
+import backend.unit.Event;
 
 public class TestEvent {
 	private static ArrayList<Boolean> testCases = new ArrayList<Boolean>();
-
 
 	public static void main(String[] args) {
 		try {

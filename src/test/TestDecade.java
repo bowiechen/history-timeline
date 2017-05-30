@@ -1,14 +1,13 @@
 package test;
 
-import unit.Decade;
-import unit.Event;
-
 import java.util.ArrayList;
+
+import backend.unit.Decade;
+import backend.unit.Event;
 
 public class TestDecade {
 	private static ArrayList<Boolean> testCases = new ArrayList<Boolean>();
-	
-	
+
 	public static void main(String[] args) {
 		try {
 			Event e1 = new Event("event1", 2017, 4, 2017, 5, false);
